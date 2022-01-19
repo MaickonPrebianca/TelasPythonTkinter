@@ -40,7 +40,7 @@ class Tela_2(QDialog):
         self.setLayout(mainLayout)
 
         # CREATE WIDGETS      
-        self.label = QLabel("Digite algo e clique no botão")
+        self.label = QLabel('Digite algo e clique no botao')
         self.lineEdit = QLineEdit()
         self.pushButton = QPushButton("Adicionar dados")
         
